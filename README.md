@@ -2,45 +2,79 @@
 
 **A social-impact platform and System Dynamics research project focused on matching needs, resources, and acts of help.**
 
-**Repository type:** Public project showcase  
-**Project area:** Social impact · platform design · System Dynamics · research  
-**Website:** https://chainofhappiness.com  
-**Operational source:** Maintained separately
+| | |
+|---|---|
+| **Project type** | Social impact · digital platform · System Dynamics · research |
+| **Role** | Creator and researcher |
+| **Status** | Active platform + ongoing research |
+| **Live platform** | https://chainofhappiness.com |
+| **Research milestone** | Presented at ISDC 2026, Delft |
+| **Operational source** | Maintained separately |
 
 ---
 
-## Project overview
+## Executive summary
 
-Chain of Happiness explores how digital infrastructure can reduce the friction between people who need help and people who have resources, time, goods, services, or knowledge they are willing to share.
+Chain of Happiness explores a coordination problem: people who need help often do not know who can provide it, while people willing to help may not know where their money, goods, skills, time, services, or knowledge would be most useful.
 
-The project combines a public-facing platform with an academic research program.
+The project combines two connected layers:
 
-## Platform
+1. a **digital social-impact platform** for structured requests, offers, and matching;
+2. a **System Dynamics research program** studying the feedback structures that influence participation, cooperation, matching, trust, and system growth.
 
-The platform is designed around structured requests and offers, with the broader goal of supporting both monetary and non-monetary forms of help.
+## Platform design
 
-Core concepts include:
+### Requests and offers
 
-- requests and offers;
-- matching needs with available resources;
-- support using money, goods, services, knowledge, or time;
-- rules intended to preserve integrity in the exchange process;
-- a developing marketplace and coordination structure;
-- research-informed iteration of the platform design.
+Users can represent both needs and available resources explicitly. The platform is designed to support more than monetary exchange: resources may include goods, services, knowledge, time, or other forms of help.
+
+### Multi-resource matching
+
+The broader marketplace concept treats a request and the resource that can satisfy it as separate objects. This makes it possible to explore matching across different forms of contribution rather than forcing every interaction into a cash donation model.
+
+### Integrity rules
+
+The product design includes rules intended to preserve trust in the exchange process. One example is preventing a user from funding their own request. The purpose is to keep helping relationships meaningful and reduce obvious self-dealing pathways.
+
+### Research-informed iteration
+
+Platform rules are treated as design hypotheses rather than fixed assumptions. Product behavior, incentives, matching logic, and participation dynamics can be examined through research and System Dynamics modeling.
 
 ## System Dynamics research
 
-Chain of Happiness is also a System Dynamics research project examining cooperation, participation, helping behavior, matching, feedback, and growth in a social-support system.
+The System Dynamics work examines mechanisms such as:
 
-The work was presented at the **2026 International System Dynamics Conference (ISDC)** in Delft and is being developed further for academic publication.
+- participation and retention
+- helping behavior
+- availability of resources
+- matching success
+- trust and perceived usefulness
+- feedback from successful exchanges
+- platform growth and congestion
+- reinforcing and balancing feedback around contribution and need
 
-## Why it matters
+The Chain of Happiness research was presented at the **2026 International System Dynamics Conference (ISDC) in Delft** and is being developed further for academic publication.
 
-Many social-support systems are fragmented. People with needs may not know who can help, while people willing to help may not know where their contribution is useful. Chain of Happiness treats this as a coordination and feedback problem rather than only a marketplace problem.
+## Why System Dynamics fits the problem
 
-## Repository note
+A social-support platform is not simply a database of requests. Its behavior can emerge from feedback:
 
-This repository is a curated public showcase. Operational source code, private platform data, internal administration, and unpublished research materials are maintained separately.
+**successful help → trust / visibility → more participation → more potential matches**
+
+but growth can also introduce balancing forces such as congestion, unmatched requests, declining response quality, or trust problems. A dynamic model helps test which structures produce sustainable helping rather than short-lived activity.
+
+## Product/research connection
+
+The project is designed so that the live platform and research program can inform one another:
+
+- platform design identifies real coordination mechanisms worth modeling;
+- modeling makes assumptions about growth and incentives explicit;
+- research findings can suggest product changes;
+- product experience can expose new questions for the model.
+
+## Public/private boundary
+
+This showcase intentionally excludes operational source code, private user or platform data, administration tools, credentials, environment configuration, internal analytics, and unpublished model equations/parameters. Public material is limited to the project concept, product logic, research context, and deliberately released outputs.
 
 ## Author
 
