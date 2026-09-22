@@ -2,6 +2,8 @@
 
 **A social-impact platform and System Dynamics research project focused on matching needs, resources, and acts of help.**
 
+[Explore the conceptual feedback diagram and evidence boundaries](docs/VISUAL_CASE_STUDY.md) · [Public case-study page](index.html)
+
 | | |
 |---|---|
 | **Project type** | Social impact · digital platform · System Dynamics · research |
